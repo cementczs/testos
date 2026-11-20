@@ -22,9 +22,9 @@ while True:
 
     if pocet_pokusu == 5:
         if tajne_cislo % 2 == 0:
-            print("Hledané číslo je sudé")
+            print("Nápověda: Hledané číslo je sudé")
         else:
-            print("Hledané číslo je liché")
+            print("Nápověda: Hledané číslo je liché")
     
 
     if tip < tajne_cislo:
