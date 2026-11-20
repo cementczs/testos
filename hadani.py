@@ -20,6 +20,13 @@ while True:
 
     pocet_pokusu += 1
 
+    if pocet_pokusu == 5:
+        if tajne_cislo % 2 == 0:
+            print("Hledané číslo je sudé")
+        else:
+            print("Hledané číslo je liché")
+    
+
     if tip < tajne_cislo:
         print("Hledané číslo je VĚTŠÍ.")
     elif tip > tajne_cislo:
