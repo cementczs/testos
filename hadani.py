@@ -4,7 +4,7 @@ import random
 tajne_cislo = random.randint(1, 100)
 pocet_pokusu = 0
 
-print("🎮 Hra: Hádej číslo!")
+print("🎮 Tohle je hra Hádej číslo!")
 print("Myslím si číslo od 1 do 100.")
 
 while True:
